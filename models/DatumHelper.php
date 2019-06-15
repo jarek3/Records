@@ -2,16 +2,16 @@
 class DatumHelper
  {    
     public static function datumCzech($value)
-	{   
+    {   
         if (!empty($value))
-		{
+	{
         $datum = new DateTime($value);
 		return $datum->format('d.m.Y');
         }
-	}
+    }
     
     public static function datumDb($value, $format='Y-m-d')
-	{   
+    {   
         //pokud bude zadán měsíc česky textem 
         $mesice = ['ledna', 'února', 'března', 'dubna', 'května', 'června', 'července', 'srpna', 'září', 'října', 'listopadu', 'prosince'];
         $months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];          
@@ -24,5 +24,5 @@ class DatumHelper
         $value = str_replace(" ", "", $value); 
         $datum = new DateTime($value);         
         return $datum->format('Y-m-d');                
-	} 
+    } 
 }                
