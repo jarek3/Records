@@ -1,0 +1,15 @@
+<h1>Editace kosmonautů</h1>
+
+<form method="post">
+        <input type="hidden" name="kosmonaut_id" value="<?= $cosmonaut['kosmonaut_id'] ?>" />
+        Jméno<br />
+        <input type="text" name="name" value="<?= $cosmonaut['jmeno'] ?>" /><br />
+        Příjmení<br />
+        <input type="text" name="prijmeni" value="<?= $cosmonaut['prijmeni'] ?>" /><br />
+        Datum narození<br />
+        <input type="text" name="datum_narozeni" value="<?= DatumHelper::datumCzech($cosmonaut['datum_narozeni'])?>" /><br />
+        Superschopnost<br />
+        <input type="text" name="superschopnost" value="<?= $cosmonaut['superschopnost'] ?>" /><br />
+        
+        <input type="submit" value="Uložit kosmonauta" />
+</form>
