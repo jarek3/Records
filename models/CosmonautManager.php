@@ -25,11 +25,11 @@ class CosmonautManager
         }
         
         public function insertCosmonaut($kosmonaut_id, $cosmonaut)
-        {    
+        { 
             if (!$kosmonaut_id)
                 Db::insert('kosmonauti', $cosmonaut);
             else
-                Db::update('kosmonauti', $cosmonaut, 'WHERE `kosmonaut_id` = ?', array($kosmonaut_id));
+                Db::update('kosmonauti', $cosmonaut, 'WHERE `kosmonaut_id` = ?', array($kosmonaut_id));           
         }
 
         public function deleteCosmonaut($kosmonaut_id)

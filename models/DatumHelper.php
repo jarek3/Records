@@ -21,8 +21,13 @@ class DatumHelper
         if ($a[0]<32)        
         $value = implode($a, "."); 
         //odstranění případných mezer v zadání datumu
-        $value = str_replace(" ", "", $value); 
-        $datum = new DateTime($value);         
-        return $datum->format('Y-m-d');                
+        $value = str_replace(" ", "", $value);       
+        try{$datum = new DateTime($value);}        
+        catch(Exception $e){}  
+        $errors = DateTime::getLastErrors();
+        // Vyvolání chyby
+        if ($errors['warning_count'] + $errors['error_count'] > 0)
+            throw new Exception('Zadejte prosím existující datum.');     
+        return $datum->format('Y-m-d');
     } 
-}                
+}         

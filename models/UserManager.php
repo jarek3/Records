@@ -24,7 +24,7 @@ class UserManager
                 {
                         Db::insert('uzivatele', $user);
                 }
-                catch (PDOException $chyba)
+                catch (PDOException $error)
                 {
                         throw new UserError('Uživatel s tímto jménem je již zaregistrovaný.');
                 }

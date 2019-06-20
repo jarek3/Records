@@ -1,5 +1,5 @@
 ﻿<?php
-class RegistraceController extends Controller
+class RegistrationController extends Controller
 {
     public function process($params)
     {
