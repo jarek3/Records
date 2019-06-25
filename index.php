@@ -12,7 +12,7 @@ function autoloadFunkce($class)
 }
 spl_autoload_register("autoloadFunkce");
 // Připojení k databázi
-Db::connect("sql2.webzdarma.cz", "evidencewzsk0356", "Oluska20", "evidencewzsk0356");
+Db::connect("sql2.webzdarma.cz", "evidencewzsk0356", "***", "evidencewzsk0356");
 $router = new RouterController();
 $router->process(array($_SERVER['REQUEST_URI']));
 $router->renderView();
