@@ -71,19 +71,7 @@ abstract class Controller
                 $this->redirect('login');
         }             
     }
-    
-    	public function validDate($value, $format = 'Y-m-d')
-	{
-		try
-		{
-			self::datumDb($value, $format);
-			return $datum->format('Y-m-d');
-		}
-		catch (InvalidArgumentException $e)
-		{
-		}
-		
-	}
+
     // Hlavní metoda controlleru
     abstract function process($params);
 }
