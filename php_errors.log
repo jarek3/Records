@@ -1,0 +1,42 @@
+[20-Aug-2019 02:52:08 Europe/Amsterdam] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Pokus o pøipojení selhal, protože pøipojená strana v èasovém intervalu øádnì neodpovìdìla, nebo vytvoøené pøipojení selhalo, protože neodpovìdìl pøipojený hostitel.
+' in C:\xampp\htdocs\Records\models\Db.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Records\models\Db.php(19): PDO->__construct('mysql:host=sql2...', 'evidencewzsk035...', '***', Array)
+#1 C:\xampp\htdocs\Records\index.php(15): Db::connect('sql2.webzdarma....', 'evidencewzsk035...', '***', 'evidencewzsk035...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Records\models\Db.php on line 19
+[20-Aug-2019 02:52:29 Europe/Amsterdam] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Pokus o pøipojení selhal, protože pøipojená strana v èasovém intervalu øádnì neodpovìdìla, nebo vytvoøené pøipojení selhalo, protože neodpovìdìl pøipojený hostitel.
+' in C:\xampp\htdocs\Records\models\Db.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Records\models\Db.php(19): PDO->__construct('mysql:host=sql2...', 'evidencewzsk035...', '***', Array)
+#1 C:\xampp\htdocs\Records\index.php(15): Db::connect('sql2.webzdarma....', 'evidencewzsk035...', '***', 'evidencewzsk035...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Records\models\Db.php on line 19
+[20-Aug-2019 02:52:50 Europe/Amsterdam] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Pokus o pøipojení selhal, protože pøipojená strana v èasovém intervalu øádnì neodpovìdìla, nebo vytvoøené pøipojení selhalo, protože neodpovìdìl pøipojený hostitel.
+' in C:\xampp\htdocs\Records\models\Db.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Records\models\Db.php(19): PDO->__construct('mysql:host=sql2...', 'evidencewzsk035...', '***', Array)
+#1 C:\xampp\htdocs\Records\index.php(15): Db::connect('sql2.webzdarma....', 'evidencewzsk035...', '***', 'evidencewzsk035...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Records\models\Db.php on line 19
+[20-Aug-2019 03:01:41 Europe/Amsterdam] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Pokus o pøipojení selhal, protože pøipojená strana v èasovém intervalu øádnì neodpovìdìla, nebo vytvoøené pøipojení selhalo, protože neodpovìdìl pøipojený hostitel.
+' in C:\xampp\htdocs\Records\models\Db.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Records\models\Db.php(19): PDO->__construct('mysql:host=sql2...', 'evidencewzsk035...', '***', Array)
+#1 C:\xampp\htdocs\Records\index.php(15): Db::connect('sql2.webzdarma....', 'evidencewzsk035...', '***', 'evidencewzsk035...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Records\models\Db.php on line 19
+[20-Aug-2019 23:27:55 Europe/Amsterdam] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Pokus o pøipojení selhal, protože pøipojená strana v èasovém intervalu øádnì neodpovìdìla, nebo vytvoøené pøipojení selhalo, protože neodpovìdìl pøipojený hostitel.
+' in C:\xampp\htdocs\Records\models\Db.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Records\models\Db.php(19): PDO->__construct('mysql:host=sql2...', 'evidencewzsk035...', '***', Array)
+#1 C:\xampp\htdocs\Records\index.php(15): Db::connect('sql2.webzdarma....', 'evidencewzsk035...', '***', 'evidencewzsk035...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Records\models\Db.php on line 19
+[21-Aug-2019 00:04:18 Europe/Amsterdam] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Pokus o pøipojení selhal, protože pøipojená strana v èasovém intervalu øádnì neodpovìdìla, nebo vytvoøené pøipojení selhalo, protože neodpovìdìl pøipojený hostitel.
+' in C:\xampp\htdocs\Records\models\Db.php:19
+Stack trace:
+#0 C:\xampp\htdocs\Records\models\Db.php(19): PDO->__construct('mysql:host=sql2...', 'evidencewzsk035...', '***', Array)
+#1 C:\xampp\htdocs\Records\index.php(15): Db::connect('sql2.webzdarma....', 'evidencewzsk035...', '***', 'evidencewzsk035...')
+#2 {main}
+  thrown in C:\xampp\htdocs\Records\models\Db.php on line 19

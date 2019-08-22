@@ -27,7 +27,7 @@ class DatumHelper
         $errors = DateTime::getLastErrors();
         // Vyvolání chyby
         if ($errors['warning_count'] + $errors['error_count'] > 0)
-            throw new Exception('Zadejte prosím existující datum.');     
+            throw new Exception('Zadejte prosím existující datum.'); //pokud zadám např. 29.2.2019    
         return $datum->format('Y-m-d');
     } 
 }         
