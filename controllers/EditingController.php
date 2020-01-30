@@ -31,8 +31,7 @@ class EditingController extends Controller
                         $this->redirect('cosmonaut/' . $cosmonaut['url']);}
                       catch(Exception $e)
                         {                        
-                        $this->addMessage($e->getMessage());
-                        $this->redirect('editing'); 
+                        $this->addMessage($e->getMessage());                        
                         }                         
                 }
                         // Je zadaný kosmonaut k editaci
